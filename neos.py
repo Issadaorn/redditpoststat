@@ -3,6 +3,7 @@ import pandas as pd
 import datetime
 
 posts = []
+#use the subreddit name after the r/
 name = 'streaming'
 num_posts = 1000
 reddit = praw.Reddit(client_id='my_client_id',
