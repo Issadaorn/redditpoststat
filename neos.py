@@ -26,4 +26,4 @@ def count_posts_inlast_week(posts):
     last_week = datetime.datetime.now() - datetime.timedelta(days=7)
     return len(posts[posts['created'] > last_week])
 
-print (count_posts_inlast_week(posts))
+print ("the post count in the last week is: ", count_posts_inlast_week(posts))
